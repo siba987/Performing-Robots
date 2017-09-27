@@ -14,7 +14,7 @@
 
 #include "BluefruitConfig.h"
 #include <Adafruit_MotorShield.h>
-#include "utility/Adafruit_MS_PWMServoDriver.h"
+//#include "utility/Adafruit_MS_PWMServoDriver.h"
 
 // Create the motor shield object with the default I2C address
 Adafruit_MotorShield AFMS = Adafruit_MotorShield();
@@ -210,30 +210,30 @@ void loop(void)
     if (pressed) {
       Serial.println(" pressed");
       if (buttnum == 5) {
-        Serial.print(" Go Forward");
+        Serial.println(" Go Forward");
         leftMotor->run(FORWARD);
         rightMotor->run(FORWARD);
       }
       if (buttnum == 6) {
-        Serial.print(" Go Backward");
+        Serial.println("Go Backward");
         leftMotor->run(BACKWARD);
         rightMotor->run(BACKWARD);
 
       }
       if (buttnum == 7) {
-        Serial.print(" turn left");
+        Serial.println("Turn left");
         leftMotor->run(BACKWARD);
         rightMotor->run(FORWARD);
       }
 
       if (buttnum == 8) {
-        Serial.print(" turn right");
+        Serial.println("Turn right");
         leftMotor->run(FORWARD);
         rightMotor->run(BACKWARD);
       }
 
       if (buttnum==1){
-        Serial.print(" turn CCW");
+        Serial.println("Turn CCW");
         leftMotor->run(FORWARD);
         leftMotor->setSpeed(100);
         rightMotor->run(FORWARD);
@@ -244,8 +244,8 @@ void loop(void)
       Serial.println(" released");
       leftMotor->run(RELEASE);
       rightMotor->run(RELEASE);
-//      leftMotor->setSpeed(150);
-//      rightMotor->setSpeed(150);
+      leftMotor->setSpeed(150);
+      rightMotor->setSpeed(150);
     }
   }
 }
