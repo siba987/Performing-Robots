@@ -3,7 +3,9 @@
 The link to a performance that I think exemplifies performing robots: http://www.nyuad-artscenter.org/en_US/events/2016/huang-yi-and-kuka/
 Titled "HUANG YI & KUKA", it is a dance featuring Taiwanese choreographer Huang Yi, and shows the evolving relationship between humans and robots. It is an autonomous performance, but leaves the audience enthralled.
 
-------------- PROGRESS ON GROUP PROJECT CONCEPT----------------------
+------------- PROGRESS ON GROUP PROJECT CONCEPT------------------------------------------
+
+
 10/31/2017
 I am working with Mei for our end-of-semester project. Our concept is the intersection of nature and technology. 
 -Concept:
