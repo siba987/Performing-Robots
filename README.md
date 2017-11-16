@@ -19,3 +19,12 @@ We have a computer image of fixed dimensions and we think we can get a similar i
 
 -Electrical and electronics
 We will be needing accelerometers to record the acceleration of the robot, and possibly motion sesnors to detect chnages which will actuate the patterns. For communication, we think we can use two Arduinos with Bluetooth enabled.
+
+------------------------------------------------------PLAN FOR THE COMING WEEKS---------------------------------------
+Thursday November 16 
+-> finish contruction of balancing robot, test that computer tracking is working.
+-> prepare small ramps for the landmarks
+
+Tuesday November 21
+-> decide on word generation (i.e. when robot passes over ramp)
+-> test power duration, control of robot moving
