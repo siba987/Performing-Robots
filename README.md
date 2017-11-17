@@ -26,18 +26,17 @@ Thursday November 16
 -> prepare small ramps for the landmarks
 
 ## Tuesday Nov 21st
-# Control from MATLAB
+### Control from MATLAB
 *	Assemble the parts of the circuit (2 H-bridges| motor shield), accelerometer, gyroscope, 2x DC motors_
 *	Laser cut chassis (make wider?), *book appointment for Sun 19th_
 *	Write and test code in Arduino/Matlab:_
   o	Find out if Matlab code can be saved to Arduino for balancing_
   o	Implement motion along x-, y-directions by modifying model_
-# Implementation_
+### Implementation
 *	Test that all devices are communicating with each other properly_
 *	Buttons on Bluetooth controller to send messages to the robot_
 *	Power- check whether 6V battery enough for both DC motors_
-# The environment_
-*	Write and test code in Arduino:_
-
+### The environment
+*	Write and test code in Arduino:
 * decide on word generation (i.e. when robot passes over ramp)_
 * test power duration, control of robot moving
