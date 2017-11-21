@@ -28,10 +28,10 @@ Thursday November 16
 ## Tuesday Nov 21st
 * Laser cut chassis for prototyping of balancing robot
 * make circuit on breadboard for testing
-# *Note*: need accelerometer, gyroscope
+*Note*: need accelerometer SN-ADXL 335-CV, gyroscope SN-ENC03R
 
 ## Thursday Nov 23
-### Control from MATLAB
+### Control from MATLAB (link:https://www.mathworks.com/help/control/examples/control-of-an-inverted-pendulum-on-a-cart.html?prodcode=RC&language=en)
 *	Assemble the parts of the circuit (2 H-bridges| motor shield), accelerometer, gyroscope, 2x DC motors_
 *	Laser cut chassis (make wider?)
 *	Write and test code in Arduino/Matlab:
