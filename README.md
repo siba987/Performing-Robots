@@ -26,17 +26,27 @@ Thursday November 16
 -> prepare small ramps for the landmarks
 
 ## Tuesday Nov 21st
+* Laser cut chassis for prototyping of balancing robot
+* make circuit on breadboard for testing
+# *Note*: need accelerometer, gyroscope
+
+## Thursday Nov 23
 ### Control from MATLAB
 *	Assemble the parts of the circuit (2 H-bridges| motor shield), accelerometer, gyroscope, 2x DC motors_
-*	Laser cut chassis (make wider?), *book appointment for Sun 19th_
-*	Write and test code in Arduino/Matlab:_
-  o	Find out if Matlab code can be saved to Arduino for balancing_
-  o	Implement motion along x-, y-directions by modifying model_
+*	Laser cut chassis (make wider?)
+*	Write and test code in Arduino/Matlab:
+  o	Find out if Matlab code can be saved to Arduino for balancing
+  o	Implement motion along x-, y-directions by modifying model
+
+## Tuesday Nov 28
 ### Implementation
-*	Test that all devices are communicating with each other properly_
-*	Buttons on Bluetooth controller to send messages to the robot_
-*	Power- check whether 6V battery enough for both DC motors_
+*	Test that all devices are communicating with each other properly
+*	Buttons on Bluetooth controller to send messages to the robot
+*	Power- check whether 6V battery enough for both DC motors
 ### The environment
 *	Write and test code in Arduino:
-* decide on word generation (i.e. when robot passes over ramp)_
+* decide on word generation (i.e. when robot passes over ramp)
+
+## Thursday Dec 5
 * test power duration, control of robot moving
+* make sure smooth running
