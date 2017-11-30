@@ -30,15 +30,14 @@ Thursday November 16
 * make circuit on breadboard for testing
 *Note*: need accelerometer SN-ADXL 335-CV, gyroscope SN-ENC03R
 
-## Thursday Nov 23
+## Sunday Dec 3
 ### Control from MATLAB (link:https://www.mathworks.com/help/control/examples/control-of-an-inverted-pendulum-on-a-cart.html?prodcode=RC&language=en)
-*	Assemble the parts of the circuit (2 H-bridges| motor shield), accelerometer, gyroscope, 2x DC motors_
-*	Laser cut chassis (make wider?)
+*	Assemble the parts of the circuit: motor shield, 2x DC motors, PCB board
+*	Laser cut chassis (make wider)
 *	Write and test code in Arduino/Matlab:
-  o	Find out if Matlab code can be saved to Arduino for balancing
-  o	Implement motion along x-, y-directions by modifying model
-
-## Tuesday Nov 28
+  o	Find out if Matlab code can be saved to Arduino for line following
+ 
+## Tuesday Dec 5
 ### Implementation
 *	Test that all devices are communicating with each other properly
 *	Buttons on Bluetooth controller to send messages to the robot
@@ -47,6 +46,3 @@ Thursday November 16
 *	Write and test code in Arduino:
 * decide on word generation (i.e. when robot passes over ramp)
 
-## Thursday Dec 5
-* test power duration, control of robot moving
-* make sure smooth running
