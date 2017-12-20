@@ -42,7 +42,33 @@ Thursday November 16
 *	Test that all devices are communicating with each other properly
 *	Buttons on Bluetooth controller to send messages to the robot
 *	Power- check whether 6V battery enough for both DC motors
-### The environment
-*	Write and test code in Arduino:
-* decide on word generation (i.e. when robot passes over ramp)
+
+## Final Documentation
+### Concept: What personality did you want to portray in your actor? How did you use technology to accomplish this?
+- I wanted to portray a curious character, eager to learn about his/her surroundings
+- I used Bluetooth LE technology to control the motions (back and forth, left right)
+
+# Discuss the materials and construction techniques. Why did you chose these? Knowing what you know now, would you have chosen different materials or techniques?
+For this project, I chose an acrylic base and casing for my robot. at first i cut acrylic brackets to enclose the DC motors but it did not secure the wheels tightly so I swapped it to metal brackets. If I had to do it differently, I would have stuck with acrylic casing
+# What did you have to learn in order to complete your project? How did you learn this? (Include links to any useful resources)
+
+### Schematic
+
+### Overview, describing the general operation
+The concept was inspired by Google Street View. We wanted to simulate the first person view (FPV) with the robo
+### Electronic and electrical part of your project
+* Describe the software part of your project
+
+
+* Describe the mechanical part of your project
+What were the 3 most difficult parts of your project?
+Knowing what you know now, what would you have done differently?
+i would have planned the aesthetics in more details, or worked more on aligning the wheels together to increase complexity
+
+ 
+Extra photographs (link: )
+
+
+
+
 
