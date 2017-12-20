@@ -56,16 +56,16 @@ Initially I had considered two ideas before I settled down on my idea to manuall
 
 ### Overview, describing the general operation
 
-1. **Electronic and electrical part of your project**
+ **1. Electronic and electrical part of your project**
 * For the electronics, i used the Arduino Uno with motorshield. Used two DC motors for motion, and separate battery packs for the motors and the Arduino. Toward the initial idea of making a line-following robot, I printed a PCB board using Fritzing but due to complications with the staging and implementation of this idea, I changed the idea to my current one.
 
 
-1. **Software part of your project**
+ **2. Software part of your project**
 * In my Arduino code, I implemented some basic controller functionalities which will allow me to move the robot to the desired location. Since I wanted to add character to the robot, this was the best way to go about it.
 * Link to the program code: https://github.com/siba987/Performing-Robots/blob/master/Controller_v1
 
 
-1. **Mechanical part of your project**
+ **3. Mechanical part of your project**
 The mechanical part of the project was simple enough-- I placed all my components on an acrylic base and used switches for the batteries to simplify the usability. The finished product can be see in the extra link to the photograph.
 
 ### What were the 3 most difficult parts of your project?
