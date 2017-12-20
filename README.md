@@ -43,30 +43,42 @@ Thursday November 16
 *	Buttons on Bluetooth controller to send messages to the robot
 *	Power- check whether 6V battery enough for both DC motors
 
-## Final Documentation
+# Final Documentation
 ### Concept: What personality did you want to portray in your actor? How did you use technology to accomplish this?
-- I wanted to portray a curious character, eager to learn about his/her surroundings
-- I used Bluetooth LE technology to control the motions (back and forth, left right)
+I wanted to portray a curious character, eager to learn about his/her surroundings. The concept was inspired by Google Street View. We wanted to simulate the first person view (FPV) with the robot.
+I used Bluetooth LE technology to control the motions (back and forth, left right) to correlate the scenery with the movement of the robot.
 
-# Discuss the materials and construction techniques. Why did you chose these? Knowing what you know now, would you have chosen different materials or techniques?
+### Discuss the materials and construction techniques. Why did you chose these? Knowing what you know now, would you have chosen different materials or techniques?
 For this project, I chose an acrylic base and casing for my robot. at first i cut acrylic brackets to enclose the DC motors but it did not secure the wheels tightly so I swapped it to metal brackets. If I had to do it differently, I would have stuck with acrylic casing
-# What did you have to learn in order to complete your project? How did you learn this? (Include links to any useful resources)
+### What did you have to learn in order to complete your project? How did you learn this?
+Initially I had considered two ideas before I settled down on my idea to manually control the robot's movement. The initial idea did not fit in with the overarching theme of navigation, and so the idea was to use computer vision (software art) to track the movement and orientation of the robot. 
 
-### Schematic
 
 ### Overview, describing the general operation
-The concept was inspired by Google Street View. We wanted to simulate the first person view (FPV) with the robo
-### Electronic and electrical part of your project
-* Describe the software part of your project
+
+1. **Electronic and electrical part of your project**
+* For the electronics, i used the Arduino Uno with motorshield. Used two DC motors for motion, and separate battery packs for the motors and the Arduino. Toward the initial idea of making a line-following robot, I printed a PCB board using Fritzing but due to complications with the staging and implementation of this idea, I changed the idea to my current one.
 
 
-* Describe the mechanical part of your project
-What were the 3 most difficult parts of your project?
-Knowing what you know now, what would you have done differently?
-i would have planned the aesthetics in more details, or worked more on aligning the wheels together to increase complexity
+1. **Software part of your project**
+* In my Arduino code, I implemented some basic controller functionalities which will allow me to move the robot to the desired location. Since I wanted to add character to the robot, this was the best way to go about it.
+* Link to the program code: https://github.com/siba987/Performing-Robots/blob/master/Controller_v1
 
- 
-Extra photographs (link: )
+
+1. **Mechanical part of your project**
+The mechanical part of the project was simple enough-- I placed all my components on an acrylic base and used switches for the batteries to simplify the usability. The finished product can be see in the extra link to the photograph.
+
+### What were the 3 most difficult parts of your project?
+1. Deciding on a project idea (balancing -> line-following -> modification of line-following)
+1. The wheels slipping on the acrylic base - changed to metal brackets based on Michael's advice.
+1. Synchronizing the robot's movements with the visual projections 
+
+*Knowing what you know now, what would you have done differently?*
+I would have planned the aesthetics in more details, to increase the complexity of the robot. I would also have added some extra effects to the robot such as blinking LED lights to indicate where it is moving, or which would blink when it has reached its destination(s). 
+
+Schematic (follow link here: https://github.com/siba987/Performing-Robots/blob/master/FinalProject/schematic.PNG)
+
+Extra photographs (link: https://github.com/siba987/Performing-Robots/blob/master/FinalProject/Finished%20piece.jpg)
 
 
 
