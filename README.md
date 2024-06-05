@@ -1,27 +1,27 @@
-## Performing-Robots
+# Performing-Robots
 
 The link to a performance that I think exemplifies performing robots: http://www.nyuad-artscenter.org/en_US/events/2016/huang-yi-and-kuka/
 Titled "HUANG YI & KUKA", it is a dance featuring Taiwanese choreographer Huang Yi, and shows the evolving relationship between humans and robots. It is an autonomous performance, but leaves the audience enthralled.
 
-------------- PROGRESS ON GROUP PROJECT CONCEPT------------------------------------------
+## PROGRESS ON GROUP PROJECT CONCEPT
 
 
 10/31/2017
 I am working with Mei for our end-of-semester project. Our concept is the intersection of nature and technology. 
--Concept:
+### Concept:
 our idea is to have the robot, or actor, inhabit the nature which is a constatntly changing environment with
 changing dimensions of connected wires which encapsulates the nature engulfing the city. 
 The interaction between the actor and the software art is envisioned by the actoir's movement influencing the movement across the plane, 
 and also in the movement of the robot in some way affecting the different dimensions of the software environment (i.e. mesh paterns).
 
--Size and Mechanical structure
+### Size and Mechanical structure
 We have a computer image of fixed dimensions and we think we can get a similar image with pixels mapped to the computer-based image and when the robot-cum-actor moves in the real world, there will  be a computer simulation (?) imitating and following the movements.
 
--Electrical and electronics
+### Electrical and electronics
 We will be needing accelerometers to record the acceleration of the robot, and possibly motion sesnors to detect chnages which will actuate the patterns. For communication, we think we can use two Arduinos with Bluetooth enabled.
 
-------------------------------------------------------PLAN FOR THE COMING WEEKS---------------------------------------
-Thursday November 16 
+# PLAN FOR THE COMING WEEKS
+## Thursday November 16 
 -> finish contruction of balancing robot, test that computer tracking is working.
 -> prepare small ramps for the landmarks
 
@@ -31,7 +31,7 @@ Thursday November 16
 *Note*: need accelerometer SN-ADXL 335-CV, gyroscope SN-ENC03R
 
 ## Sunday Dec 3
-### Control from MATLAB (link:https://www.mathworks.com/help/control/examples/control-of-an-inverted-pendulum-on-a-cart.html?prodcode=RC&language=en)
+* Control from MATLAB (link:https://www.mathworks.com/help/control/examples/control-of-an-inverted-pendulum-on-a-cart.html?prodcode=RC&language=en)
 *	Assemble the parts of the circuit: motor shield, 2x DC motors, PCB board
 *	Laser cut chassis (make wider)
 *	Write and test code in Arduino/Matlab:
@@ -70,10 +70,10 @@ The mechanical part of the project was simple enough-- I placed all my component
 
 ### What were the 3 most difficult parts of your project?
 1. Deciding on a project idea (balancing -> line-following -> modification of line-following)
-1. The wheels slipping on the acrylic base - changed to metal brackets based on Michael's advice.
-1. Synchronizing the robot's movements with the visual projections 
+2. The wheels slipping on the acrylic base - changed to metal brackets based on Michael's advice.
+3. Synchronizing the robot's movements with the visual projections 
 
-*Knowing what you know now, what would you have done differently?*
+### Knowing what you know now, what would you have done differently?
 I would have planned the aesthetics in more details, to increase the complexity of the robot. I would also have added some extra effects to the robot such as blinking LED lights to indicate where it is moving, or which would blink when it has reached its destination(s). 
 
 Schematic (follow link here: https://github.com/siba987/Performing-Robots/blob/master/FinalProject/schematic.PNG)
