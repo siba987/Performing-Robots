@@ -5,9 +5,8 @@ Titled "HUANG YI & KUKA", it is a dance featuring Taiwanese choreographer Huang 
 
 ## PROGRESS ON GROUP PROJECT CONCEPT
 
+Mei and I are collaborating on the end-of-semester project. Our concept is the intersection of nature and technology.
 
-10/31/2017
-I am working with Mei for our end-of-semester project. Our concept is the intersection of nature and technology. 
 ### Concept:
 our idea is to have the robot, or actor, inhabit the nature which is a constatntly changing environment with
 changing dimensions of connected wires which encapsulates the nature engulfing the city. 
@@ -20,30 +19,30 @@ We have a computer image of fixed dimensions and we think we can get a similar i
 ### Electrical and electronics
 We will be needing accelerometers to record the acceleration of the robot, and possibly motion sesnors to detect chnages which will actuate the patterns. For communication, we think we can use two Arduinos with Bluetooth enabled.
 
-# PLAN FOR THE COMING WEEKS
-## Thursday November 16 
+## PLAN FOR THE COMING WEEKS
+### Thursday November 16 
 -> finish contruction of balancing robot, test that computer tracking is working.
 -> prepare small ramps for the landmarks
 
-## Tuesday Nov 21st
+### Tuesday Nov 21st
 * Laser cut chassis for prototyping of balancing robot
 * make circuit on breadboard for testing
 *Note*: need accelerometer SN-ADXL 335-CV, gyroscope SN-ENC03R
 
-## Sunday Dec 3
+### Sunday Dec 3
 * Control from MATLAB (link:https://www.mathworks.com/help/control/examples/control-of-an-inverted-pendulum-on-a-cart.html?prodcode=RC&language=en)
 *	Assemble the parts of the circuit: motor shield, 2x DC motors, PCB board
 *	Laser cut chassis (make wider)
 *	Write and test code in Arduino/Matlab:
   o	Find out if Matlab code can be saved to Arduino for line following
  
-## Tuesday Dec 5
-### Implementation
+### Tuesday Dec 5
+#### Implementation
 *	Test that all devices are communicating with each other properly
 *	Buttons on Bluetooth controller to send messages to the robot
 *	Power- check whether 6V battery enough for both DC motors
 
-# Final Documentation
+## Final Documentation
 ### Concept: What personality did you want to portray in your actor? How did you use technology to accomplish this?
 I wanted to portray a curious character, eager to learn about his/her surroundings. The concept was inspired by Google Street View. We wanted to simulate the first person view (FPV) with the robot.
 I used Bluetooth LE technology to control the motions (back and forth, left right) to correlate the scenery with the movement of the robot.
